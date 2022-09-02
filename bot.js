@@ -49,7 +49,7 @@ client.on('messageDelete', msg => {
 });
 
 function modUser(member) {
-  member.roles.add('1015145820053590016');
+  member.roles.add('1013732881442545787');
 };
 
 client.login(process.env.BOT_TOKEN);
