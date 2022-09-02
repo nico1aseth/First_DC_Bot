@@ -52,4 +52,4 @@ function modUser(member) {
   member.roles.add('1013732881442545787');
 };
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN || 5000);
